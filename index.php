@@ -9,7 +9,7 @@
 <body>
     <?php 
         $phrase = "hiraffe Academy";
-        echo str_replace("hiraffe", "Panda", $phrase);
+        echo substr($phrase, 8, 3);
     ?>    
 </body>
 </html>
