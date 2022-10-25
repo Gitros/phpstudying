@@ -10,11 +10,15 @@
 
     <form action="index.php" method="get">
         Name: <input type="text" name="name">
+        <br>
+        age <input type="number" name="age">
         <input type="submit">
     </form>
     <br>
     <?php 
         echo $_GET["name"];
+        echo "<br>";
+        echo $_GET["age"];
     ?>    
 </body>
 </html>
