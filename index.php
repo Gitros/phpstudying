@@ -9,7 +9,7 @@
 <body>
     <?php 
         $phrase = "hiraffe Academy";
-        echo strtolower($phrase);
+        echo strtoupper($phrase);
     ?>    
 </body>
 </html>
