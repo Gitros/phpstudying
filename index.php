@@ -8,7 +8,8 @@
 </head>
 <body>
     <?php 
-
+        $phrase = "hiraffe Academy";
+        echo strtolower($phrase);
     ?>    
 </body>
 </html>
