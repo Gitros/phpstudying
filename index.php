@@ -7,21 +7,19 @@
     <title>Document</title>
 </head>
 <body>
-
-
     <?php 
-        $name = "Tom";
-        $age = 85;
+        $pgrase = "To be or not to be";
+        $age = 53;
+        $gpa = 44.732;
+        $isMale = false;
+        echo $pgrase;
+        echo "<br>";
+        echo $gpa;
+        echo "<br>";
+        echo $age;
+        echo "<br>";
+        echo $isMale;
 
-
-        echo "There once was a man named $name <br>";
-        echo "He was $age years old <br>";
-        $name = "mike";
-        echo "He really liked the name $name <br>";
-        echo "But didn't like being $age <br>";
-    
     ?>    
-
-
 </body>
 </html>
