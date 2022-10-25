@@ -9,7 +9,7 @@
 <body>
     <?php 
         $phrase = "hiraffe Academy";
-        echo strlen($phrase);
+        echo $phrase[0];
     ?>    
 </body>
 </html>
