@@ -9,8 +9,7 @@
 <body>
     <?php 
         $phrase = "hiraffe Academy";
-        $phrase[0] = "B";
-        echo $phrase[0];
+        echo str_replace("hiraffe", "Panda", $phrase);
     ?>    
 </body>
 </html>
