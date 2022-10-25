@@ -8,8 +8,7 @@
 </head>
 <body>
     <?php 
-        $phrase = "hiraffe Academy";
-        echo substr($phrase, 8, 3);
+
     ?>    
 </body>
 </html>
