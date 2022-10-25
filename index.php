@@ -8,17 +8,6 @@
 </head>
 <body>
     <?php 
-        $pgrase = "To be or not to be";
-        $age = 53;
-        $gpa = 44.732;
-        $isMale = false;
-        echo $pgrase;
-        echo "<br>";
-        echo $gpa;
-        echo "<br>";
-        echo $age;
-        echo "<br>";
-        echo $isMale;
 
     ?>    
 </body>
