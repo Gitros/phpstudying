@@ -9,7 +9,7 @@
 <body>
     <?php 
         $phrase = "hiraffe Academy";
-        echo strtoupper($phrase);
+        echo strlen($phrase);
     ?>    
 </body>
 </html>
