@@ -7,11 +7,17 @@
     <title>Document</title>
 </head>
 <body>
+
+
     <?php 
-        echo "There once was a man named John <br>";
-        echo "He was 70years old <br>";
-        echo "He really liked the name John <br>";
-        echo "But didn't like being 35 <br>";
+        $name = "John";
+        $age = 35;
+
+
+        echo "There once was a man named $name <br>";
+        echo "He was $age years old <br>";
+        echo "He really liked the name $name <br>";
+        echo "But didn't like being $age <br>";
     
     ?>    
 
