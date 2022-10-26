@@ -9,16 +9,16 @@
 <body>
 
     <form action="index.php" method="get">
-        <input type="number" name="num1">
-        <br>
-        <input type="number" name="num2">
         <input type="submit">
     </form>
 
     <br>
+    <br>
     
     <?php 
-       Answer: echo $_GET["num1"] + $_GET["num2"];
+       echo "Roses are red <br>";
+       echo "Violets are blue <br>";
+       echo "I love you <br>";
     ?>    
 </body>
 </html>
