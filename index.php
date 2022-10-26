@@ -9,13 +9,14 @@
 <body>
 
     <form action="index.php" method="get">
+        Name: <input type="text" name="name"> <br>
+        <input type="submit">
     </form>
 
-    <br>
-    <br>
+    <br><br>
     
     <?php 
-
+        echo $_GET["name"];
     ?>    
 </body>
 </html>
