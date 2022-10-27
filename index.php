@@ -9,6 +9,13 @@
 <body>
 
     <?php
+        function sayHi($name, $age){
+            echo "Hello $name, you are $age<br>";
+        }
+
+        sayHi("Mike", 40);
+        sayHi("Tom", 65);
+        sayHi("Dave", 4);
     ?>    
 
 </body>
