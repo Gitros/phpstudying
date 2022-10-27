@@ -7,11 +7,12 @@
     <title>Document</title>
 </head>
 <body>
+    <form action="index.php" method="POST">
+        <input type="submit">
+    </form>
 
     <?php
-        $friends = array("Kevin", "Karen", "Oscar", "Jim");
-        $friends[4] = "Angela";
-        echo count($friends);
+
     ?>    
 
 </body>
