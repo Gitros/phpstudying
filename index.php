@@ -8,8 +8,11 @@
 </head>
 <body>
 
-    
-    <?php 
+    <?php
+        $friends = array("Kevin", "Karen", "Oscar", "Jim");
+        $friends[4] = "Angela";
+        echo count($friends);
     ?>    
+
 </body>
 </html>
