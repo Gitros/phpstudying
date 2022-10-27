@@ -9,7 +9,12 @@
 <body>
 
     <?php
-        
+        function cube($num) {
+            echo "Hello";
+            return $num * $num * $num;
+        };
+
+        echo cube(4);
     ?>    
 
 </body>
