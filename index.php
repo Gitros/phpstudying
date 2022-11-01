@@ -17,7 +17,25 @@
     <?php
         $grade = $_POST["grade"];
         
-        echo $grade;
+        switch($grade){
+            case "A":
+                echo "You did amazing";
+                break;
+            case "B":
+                echo "You did great";
+                break;
+            case "C":
+                echo "you could do better";
+                break;
+            case "D":
+                echo "you need to try harder";
+                break;
+            case "F":
+                echo "you failed the test";
+                break;
+            default:
+            echo "invalid grade";
+        }
     ?>
 
 </body>
