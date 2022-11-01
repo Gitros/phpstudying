@@ -8,6 +8,17 @@
 </head>
 <body>
 
+    <form action="index.php" method="post">
+        What was your grade?
+        <input type="text" name="grade">
+        <input type="submit">
+    </form>
+
+    <?php
+        $grade = $_POST["grade"];
+        
+        echo $grade;
+    ?>
 
 </body>
 </html>
