@@ -9,7 +9,20 @@
 <body>
 
     <?php
+        class Movie {
+            public $title;
+            public $rating;
 
+            function __construct($title, $rating){
+                $this -> title = $title;
+                $this -> rating = $rating;
+
+            }
+        }
+
+        $avengers = new Movie("avengers", "PG-13");
+
+        echo $avengers -> rating;
     ?>
 
 </body>
