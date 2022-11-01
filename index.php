@@ -9,7 +9,12 @@
 <body>
 
     <?php
+        $index = 1;
 
+        while($index <= 7) {
+            echo "$index <br>";
+            $index++;
+        }
     ?>
 
 </body>
