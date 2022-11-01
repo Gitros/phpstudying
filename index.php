@@ -14,23 +14,19 @@
             var $author;
             var $pages;
 
-            function __construct($name) {
-                echo "$name <br>";
+            function __construct($aTitle, $aAuthor, $aPages) {
+                $this -> title = $aTitle;
+                $this -> author = $aAuthor;
+                $this -> pages = $aPages;
+
             }
         } 
 
-        $book1 = new Book("mike");
-        $book1 -> title = "Harry Potter";
-        $book1 -> author = "Jk Rowling";
-        $book1 -> pages = "500";
+        $book1 = new Book("Harry Potter", "Jk Rowling", 500);
 
-        $book2 = new Book("tom");
-        $book2 -> title = "lord of the rings";
-        $book2 -> author = "tolkien";
-        $book2 -> pages = "700";
-
+        $book2 = new Book("lord of the rings", "tolkien", 700);
         
-
+        echo $book1 ->title;
     ?>
 
 </body>
