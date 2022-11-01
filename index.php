@@ -9,21 +9,7 @@
 <body>
 
     <?php
-
-        $index = 1;
-
-        while($index <= 5){
-            echo "$index <br>";
-            $index++;
-        } 
-        echo "<br>";
-
-        $luckyNumbers = array(4, 8, 14, 17, 24, 73);
-        for ($i = 0; $i <= count($luckyNumbers); $i++){
-            echo "$luckyNumbers[$i] <br>";
-        }
-
-
+    
     ?>
 
 </body>
