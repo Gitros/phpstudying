@@ -1,0 +1,72 @@
+* {
+    font-family: Helvetica;
+}
+
+#baner,
+#stopka {
+    background-color: #00838F;
+    color: white;
+    padding: 5px;
+    font-size: 130%;
+    text-align: center;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#lewa {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+
+#lewy1,
+#lewy2 {
+    background-color: #EFEFEF;
+}
+
+#lewy1 {
+    height: 150px;
+}
+
+#lewy2 {
+    height: 300px;
+}
+
+#prawy {
+    background-color: #4FB3BF;
+    width: 45%;
+    height: 450px;
+    text-align: center;
+}
+
+img {
+    box-shadow: 10px 10px 7px dimgray;
+    margin: 20px;
+    width: 400px;
+}
+
+table,
+th,
+td {
+    border: solid 1px #4FB3BF;
+    border-collapse: collapse;
+}
+
+table {
+    margin: auto;
+    width: 80%;
+}
+
+tr,
+th {
+    padding: 4px;
+}
+
+td,
+th:hover {
+    background-color: #4FB3BF;
+}
